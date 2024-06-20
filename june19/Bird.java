@@ -15,4 +15,9 @@ public class Bird implements Flyer{
     public void fly() {
         System.out.println("Bird flying");
     }
+
+   // static methods cannot be overridden
+    static void takeRest(){
+        System.out.println("I will take rest for 1 day");
+    }
 }
